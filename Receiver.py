@@ -242,7 +242,7 @@ assert(lora.get_agc_auto_on() == 1)
 
 try:
     print ("\n--------------------------------")
-    print (":::::: Start SDSMS-LoRa :::::")
+    print (":::::: Start SDSMS-LoRa Receiver :::::")
     print ("--------------------------------\n")
     lora.start()
 except KeyboardInterrupt:
